@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+Q1) What is a Servlet in Java?
+
+The core of dynamic web applications is a Java Servlet, which may handle a number of functions, such as processing client-sent explicit and implicit data.
+To satisfy the client's request, the servlet carefully parses and processes explicit data, such as form submissions. Furthermore, implicit data that 
+is contained in request headers is extracted and used as needed for server-side operations. The servlet produces the required output after processing is finished, 
+usually as HTML content. Ultimately, the client receives back both the implicit data and the processed explicit data (which are frequently displayed in HTML answers), 
+guaranteeing a smooth communication between the client's web browser and the server. Because of Servlets' extensive functionality, 
+dynamic and interactive websites may be created.
+
+
+Q2) What is meant by static and dynamic websites. List down their differences.
+
+1)	Static Website: 
+
+Fixed material, which is what makes up static websites, is content that doesn't change for any user or request.
+Static websites often use HTML, CSS, and JavaScript to write their content. 
+These websites can be developed more quickly and easily. 
+The HTML files must be manually edited in order to update static webpages. 
+They work well for websites like personal blogs or business websites whose content doesn't change often.
+
+* Fixed Content
+* Easier & Quicker Development
+* Limited interactivity
+* Manual editing of HTML files
+* Content that doesn’t change often
+
+2)	Dynamic Websites:
+
+Content on dynamic websites is created dynamically, meaning it can alter in response to user input, database queries, and other factors. 
+Dynamic websites frequently use databases to store their content, which is then created using server-side scripting languages like PHP, Python, or Ruby.
+Users of dynamic websites can receive individualized material according to their activities or interests. 
+A content management system (CMS) or direct database modifications can be used to update dynamic webpages. 
+These work well for websites that change their content often, such news, social networking, or e-commerce sites.
+
+* Dynamically generated Content
+* More Complex server-side scripting
+* Can provide 
+* Update through CMS or database
+* Content that changes frequently
+
+
+Q3)Feature	          GET	              POST
+Purpose	Retrieve      data	            Send data
+Data Location	        URL	              Request Body
+Data Visibility	      Exposed in URL    Hidden in request body
+Data Size	            Limited (text)    Larger and various types
+Security	            Less secure	      More secure
+
+
+Q4)The web.xml file, also known as the Deployment Descriptor, 
+is a configuration file used in Java Servlet-based web applications deployed on servlet containers like Apache Tomcat, Jetty, or others. Its primary purpose is to define configuration settings and mappings for servlets, filters, listeners, 
+and other web components within the web application.
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="clickServlet" method="post">
+        <button type="submit"> Click me</button>
+    
+         </form>
+        </body>
+</html>
