@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <div class="login">
-                <form action="Login" method="POST">
+                <form action="LoginServlet" method="POST">
                     <h1 class="title">Login Form</h1>
                     <table>
                         <tbody>
