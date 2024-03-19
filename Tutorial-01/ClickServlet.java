@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author WCT
  */
-@WebServlet(name = "ClickServlet", urlPatterns = {"/ClickServlet"})
-public class ClickServlet extends HttpServlet {
+@WebServlet(name = "HelloServlet", urlPatterns = {"/HelloServlet"})
+public class  HelloServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
